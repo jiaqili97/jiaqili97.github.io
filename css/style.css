@@ -12,12 +12,12 @@
 *
 * ======================================================= */
 body {
-  font-family: "Karla", Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   line-height: 1.8;
   font-size: 16px;
   font-weight: 400;
   background: #fafafa;
-  color: gray; }
+  color: #3d3d3d; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -34,20 +34,20 @@ body {
     overflow-y: hidden; }
 
 a {
-  color: #CA82F8;
+  color: #a51417;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover {
     text-decoration: underline;
-    color: #CA82F8; }
+    color: #a51417; }
   a:focus, a:active {
     outline: none; }
 
 p, span {
   margin-bottom: 1.5em;
   font-weight: 400;
-  font-family: "Karla", Arial, sans-serif; }
+  font-family: "Times New Roman", Times, serif; }
 
 ul, ol {
   display: block;
@@ -59,7 +59,7 @@ span {
 
 h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.8);
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "Times New Roman", Times, serif;
   margin: 0 0 30px 0; }
 
 ::-webkit-selection {
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
           outline: none;
           text-decoration: none; }
       #colorlib-main-nav ul li.active a {
-        color: #CA82F8; }
+        color: #a51417; }
   #colorlib-main-nav .form-group {
     margin-bottom: 40px;
     position: relative;
@@ -1229,7 +1229,7 @@ header {
       font-size: 16px;
       color: rgba(0, 0, 0, 0.5); }
     .contact-info li a {
-      color: #CA82F8; }
+      color: #a51417; }
 
 .form-control {
   -webkit-box-shadow: none;
@@ -1261,7 +1261,7 @@ input[type="text"] {
 
 .colorlib-social-icons i {
   font-size: 24px;
-  color: #CA82F8; }
+  color: #a51417; }
 
 #footer {
   padding: 8em 0;
@@ -1278,7 +1278,7 @@ input[type="text"] {
     text-decoration: none !important; }
   #footer p.colorlib-social-icons i {
     font-size: 24px;
-    color: #CA82F8; }
+    color: #a51417; }
   #footer p .block {
     color: #1a1a1a;
     font-size: 14px; }
