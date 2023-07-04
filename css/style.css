@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
       right: 0;
       content: '';
       background: rgba(0, 0, 0, 0.4); }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 95%) {
     #colorlib-page {
       padding-top: 5em; } }
 
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   right: 0;
   padding: 4em 40px 40px 40px;
-  width: 360px;
+  width: 50%;
   height: 100%;
   background: white;
   z-index: 1002;
@@ -129,9 +129,9 @@ h1, h2, h3, h4, h5, h6 {
   -o-transform: scale(0);
   transform: scale(0);
   overflow-y: scroll; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 95%) {
     #colorlib-main-nav {
-      width: 300px; } }
+      width: 40%; } }
   #colorlib-main-nav .colorlib-nav-toggle {
     position: absolute;
     top: 5px;
@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
   #colorlib-main-nav ul {
     padding: 0;
     margin: 0 0 3em 0; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 95%) {
       #colorlib-main-nav ul {
         padding: 20px 0 0 0; } }
     #colorlib-main-nav ul li {
@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
         padding: 10px 0;
         text-transform: uppercase;
         font-weight: 400; }
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 95%) {
           #colorlib-main-nav ul li a {
             font-size: 16px; } }
         #colorlib-main-nav ul li a:hover, #colorlib-main-nav ul li a:active, #colorlib-main-nav ul li a:focus {
@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 40px;
     position: relative;
     width: 100%; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 60%) {
       #colorlib-main-nav .form-group {
         width: 100%; } }
     #colorlib-main-nav .form-group input::-webkit-input-placeholder {
@@ -257,10 +257,10 @@ h1, h2, h3, h4, h5, h6 {
     display: table;
     z-index: 0;
     text-decoration: none; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 95%) {
       #colorlib-main-nav .gallery {
         width: 25%; } }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 60%) {
       #colorlib-main-nav .gallery {
         width: 50%; } }
     #colorlib-main-nav .gallery:after {
@@ -300,7 +300,7 @@ header {
   right: 0;
   z-index: 9;
   margin: 0 auto; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 95%) {
     header {
       padding: 2em 0; } }
   header .colorlib-navbar-brand {
@@ -338,7 +338,7 @@ header {
   padding: 10em 0;
   clear: both;
   position: relative; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 95%) {
     #colorlib-services,
     #colorlib-contact,
     #colorlib-work,
@@ -426,7 +426,7 @@ header {
   font-size: 250px;
   color: #f0f0f0;
   font-weight: 700; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 95%) {
     .bold {
       font-size: 60px; } }
 
@@ -654,7 +654,7 @@ header {
     -webkit-transform: rotate(125deg);
     transform: rotate(125deg); } }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 100%) {
   .progress {
     margin-bottom: 20px; } }
 
@@ -676,12 +676,12 @@ header {
     width: 45%; }
     .services-flex .one-forth .one-third, .services-flex .one-forth .one-forth {
       display: inline-block; }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 95%) {
         .services-flex .one-forth .one-third, .services-flex .one-forth .one-forth {
-          height: 400px; } }
+          height: 50%; } }
   .services-flex .one-third, .services-flex .one-forth {
     display: inline-block; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 95%) {
       .services-flex .one-third, .services-flex .one-forth {
         width: 100%;
         display: block; } }
@@ -758,11 +758,11 @@ header {
       padding: 4.5em 3.5em; }
       .work-entry .work-img:hover .display-t .work-name h2 {
         font-size: 34px; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 95%) {
       .work-entry .work-img {
-        height: 400px; }
+        height: 50%; }
         .work-entry .work-img .display-t {
-          height: 400px; } }
+          height: 50%; } }
   .work-entry .desc .read {
     text-align: right; }
     .work-entry .desc .read a {
@@ -1197,7 +1197,7 @@ header {
   margin: 0 auto;
   cursor: pointer;
   margin-top: 0; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 95%) {
     .colorlib-nav-toggle {
       display: block;
       top: 0px; } }
